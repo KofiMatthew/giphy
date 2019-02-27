@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Giphy Project</title>
+
+  <!-- bootstrap-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+  <!-- jQuery-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  
+  <!-- Javascript file-->
+  <script type="text/javascript" src="assets/javascript/giphy.js"></script>  
+
+  <!-- Google Fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Courgette|Handlee" rel="stylesheet">
+
+  <!-- CSS style sheet-->
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+<div class="container"></div>
+    <div class = "row">
+        <div class = "col-md-12 text-center">
+                <h1>Ways to Get There</h1>
+                <h5>(Click on buttons to populate GIFs)</h5>
+        </div>
+    </div>
+    <div class = "row">
+        <div class = "col-md-1"></div>
+        <div class = "col-md-3">
+            <form id="goForm">
+                <label for = "go-input">Add a new way to get there:</label>
+                <input type="text" id="go-input" value = "">
+                <input id="add-go" type="submit" value ="Go!">
+            </form>
+            <br>
+            <div id="buttons"></div>
+        </div>
+        <div class = "col-md-8" id = "giphMagic"></div>   
+    </div>  
+
+</div>
+</body>
+</html>

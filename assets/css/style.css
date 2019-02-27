@@ -1,0 +1,29 @@
+button {
+    padding: 5px;
+    margin: 10px;
+}
+
+.gipher {
+    float: left;
+    margin: 10px;
+}
+
+body{
+    background-color: teal;
+}
+
+h1, h5, p{
+    color: white;
+}
+
+h1 {
+    font-family: 'Courgette', cursive;
+}
+
+h5, label, button {
+    font-family: 'Handlee', cursive;
+}
+label {
+    color: white;
+    font-size: 16px;
+}

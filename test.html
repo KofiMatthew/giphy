@@ -1,0 +1,40 @@
+<html lang="en">
+
+<head>
+ <meta charset="utf-8">
+ <title>Single AJAX</title>
+</head>
+
+<body>
+ <div id="buttons-view"></div>
+
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+ <script type="text/javascript">
+   // constructing a queryURL variable we will use instead of the literal string inside of the ajax method
+   var title = "space+jam";
+   var queryURL = "https://www.omdbapi.com/?t=" + title + "&y=&plot=short&apikey=trilogy";
+
+   var goArray = ["one","two", "three"];
+
+function renderButtons() {
+$("#buttons-view").empty();
+for (var i = 0; i < goArray.length; i++) {
+  console.log(goArray[i]);
+  var button = $("<button>");
+  button.addClass("transit");
+  button.attr("data-name", goArray[i]);
+  button.text(goArray[i]);
+  $("#buttons-view").append(button);
+}
+}
+renderButtons();
+
+ </script>
+
+</body>
+
+</html>
+Message Input
+
+
+Message Jean-Paul Deshaies

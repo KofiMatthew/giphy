@@ -1,4 +1,4 @@
-var goArray = [
+var goAway = [
   "walk",
   "run",
   "bike",

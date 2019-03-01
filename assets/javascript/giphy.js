@@ -5,17 +5,14 @@ var goArray = [
   "fall",
   "airplane",
   "climb",
-  "swim",
   "skip",
   "bus",
   "pogo stick",
   "unicycle",
   "scooter",
   "moped",
-  "motorcycle",
   "canoe",
   "raft",
-  "kayak",
   "paddle board"
 ];
 
